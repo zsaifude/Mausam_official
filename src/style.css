@@ -75,19 +75,19 @@ main {
 }
 
 .weather-emoji {
-  font-size: 44px;
-  margin-top: 22px;
-  margin-right: 20px;
+  width: 88px;
+  height: 88px;
 }
 
 .weather-app-temperature-value {
   font-size: 88px;
   font-weight: bold;
+  line-height: 88px;
 }
 
 .weather-unit {
   font-size: 28px;
-  margin-top: 20px;
+  margin-top: 6px;
 }
 
 #humidity {
