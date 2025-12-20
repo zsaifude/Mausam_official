@@ -21,23 +21,28 @@
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
-    <h1 class="Welcome to Mausam"></h1>
+    <h1 class="weather-title">
+      <span class="english"> mausam.</span>
+      <span class="hindi">मौसम.</span>
+    </h1>
     <div class="weather-app">
       <header>
-        <form class="search-form-input" id="search-form">
-          <input
-            type="search"
-            placeholder="Enter a city.."
-            required
-            id="search-form-input"
-            class="search-form-input-bar"
-          />
-          <input type="submit" value="Search" class="search-form-button" />
-        </form>
+        <div class="searchCity">
+          <form class="search-form-input" id="search-form">
+            <input
+              type="search"
+              placeholder="Enter a city.."
+              required
+              id="search-form-input"
+              class="search-form-input-bar"
+            />
+            <input type="submit" value="Search" class="search-form-button" />
+          </form>
+        </div>
       </header>
       <main>
         <div class="weather-app-data">
-          <div>
+          <div class="city-container">
             <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details">
               <span id="time"></span> <span id="description"></span>
@@ -67,6 +72,5 @@
       </footer>
     </div>
     <script src="src/index.js"></script>
-    ;
   </body>
 </html>
