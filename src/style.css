@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #fff1f5;
+  background-color: #ebf7fb;
   justify-content: space-evenly;
   margin-bottom: 50px auto;
   display: block;
@@ -35,7 +35,7 @@ header {
 }
 
 .search-form-input-bar {
-  background-color: #fff1f5;
+  background-color: #ebf7fb;
   border: none;
   border-radius: 6px;
   width: 85%;
